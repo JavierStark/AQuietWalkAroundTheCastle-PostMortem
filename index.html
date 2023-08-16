@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AQWATC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .reddit-quote {
+        display: inline;
+        border-left: 2px solid #ccc; /* Add a left border to simulate the blockquote style */
+        padding-left: 10px; /* Add some left padding for better visual separation */
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+</style>
+
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">A Quiet Walk Around The Castle (Cancelled)</span>
+    </a>
+
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#art" class="nav-link">Art</a></li>
+        <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+<!--        <li class="nav-item"><a href="#" class="nav-link">About</a></li>-->
+    </ul>
+</header>
+
+
+
+<div class="px-4 py-4 mb-4 text-center min-vh-100" id="home">
+    <h1 class="display-3 fw-bold text-body-emphasis ">A quiet walk around the castle</h1>
+    <h2 class="pb-3">Cancelled</h2>
+    <div class="col-lg-6 mx-auto vertical-center">
+        <p class="lead mb-4">A first person <strong>horror game</strong> in a medieval castle made with <strong>Unity</strong></p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a href="#features" class="btn btn-primary btn-lg px-4 gap-3" >Features</a>
+            <a href="#art" class="btn btn-primary btn-lg px-4 gap-3" >Art</a>
+            <a href="#team" class="btn btn-outline-secondary btn-lg px-4">Team</a>
+        </div>
+    </div>
+    <p>Check this and other posts <a href="https://www.reddit.com/user/JavierStark800/submitted/">here</a></p>
+    <blockquote class="reddit-embed-bq" style="height:400px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/y2bttl/volume_on_wip_first_person_horror_game_a_quick/">[VOLUME ON] {WIP} First Person / Horror Game👻- A quick glance into the current state of my game (A Quiet Walk Around The Castle)</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+
+</div>
+
+
+<div class="min-vh-100">
+<div class="container my-5 py-5"  id="team">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <h1 class="text-body-emphasis">Team</h1>
+        <p class="lead">
+            The people who <strong>collaborated</strong> on this project
+        </p>
+    </div>
+</div>
+
+<div class="container marketing">
+    <div class="row text-center">
+        <div class="col-lg-3">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <h2 class="fw-normal">Javier</h2>
+            <p>Programmer</p>
+            <p><a class="btn btn-secondary" href="#">Personal Web</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <h2 class="fw-normal">Thomas Oldoni</h2>
+            <p>Concept Artist</p>
+            <p><a class="btn btn-secondary" href="#">Artstation</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <h2 class="fw-normal">Capivara Razinza</h2>
+            <p>3D Artist (Characters)</p>
+            <p><a class="btn btn-secondary" href="#">Artstation</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <h2 class="fw-normal">Pixlion</h2>
+            <p>3D Artist (Props)</p>
+            <p><a class="btn btn-secondary" href="#">Artstation</a></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="min-vh-100 container">
+<div class="container py-5"  id="features">
+    <div class="py-5 text-center bg-body-tertiary rounded-3">
+        <h1 class="text-body-emphasis">Features</h1>
+        <p class="lead">
+            A wide variety of <strong>mechanics</strong> that were made to increase the <strong>immersion</strong> in a <strong>dark and hostile environment</strong>
+        </p>
+    </div>
+</div>
+    <div class="row">
+        <div class="column">
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/GameDevelopment/comments/uq1s84/devlog_in_the_comments_a_quiet_walk_around_the/">--DEVLOG (in the comments)-- A Quiet Walk Around The Castle - - Week 1 (Looking for 3D artist to collaborate)</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/GameDevelopment/">GameDevelopment</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/v4jsk0/devlog_in_the_comments_a_quiet_walk_around_the/">--DEVLOG (in the comments)-- A Quiet Walk Around The Castle - - Week 4</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/vsrfi8/when_ornamental_spiders_in_horror_games_are_not/">When ornamental spiders in horror games are not that ornamental</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+        </div>
+        <div class="column">
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/uuimsl/devlog_in_the_comments_a_quiet_walk_around_the/">--DEVLOG (in the comments)-- A Quiet Walk Around The Castle - - Week 2</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/valfdh/devlog_in_the_comments_a_quiet_walk_around_the/">--DEVLOG (in the comments)-- A Quiet Walk Around The Castle - - Week 5</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/vvwcq6/devlog_in_the_comments_a_quiet_walk_around_the/">--DEVLOG (in the comments)-- A Quiet Walk Around The Castle - - Week 8 (LOOKING FOR ARTISTS)</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/y2bttl/volume_on_wip_first_person_horror_game_a_quick/">[VOLUME ON] {WIP} First Person / Horror Game👻- A quick glance into the current state of my game (A Quiet Walk Around The Castle)</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+        </div>
+        <div class="column">
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/v05s5h/devlog_in_the_comments_a_quiet_walk_around_the/">--DEVLOG (in the comments)-- A Quiet Walk Around The Castle - - Week 3 (Fallout/The Elders Scrolls lock picking sytem!!!)</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/vpmov6/devlog_in_the_comments_a_quiet_walk_around_the/">--DEVLOG (in the comments)-- A Quiet Walk Around The Castle - - Week 7 (LOOKING FOR ARTISTS)</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+            <blockquote class="reddit-embed-bq" style="height:500px" data-embed-theme="dark" data-embed-height="500">      <a href="https://www.reddit.com/r/Unity3D/comments/y24opo/wip_first_person_horror_game_a_quick_glance_into/">|WIP| First Person / Horror Game👻- A quick glance into the current state of my game (A Quiet Walk Around The Castle)</a><br> by      <a href="https://www.reddit.com/user/JavierStark800">u/JavierStark800</a> in      <a href="https://www.reddit.com/r/Unity3D/">Unity3D</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="container my-5"  id="art">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <h1 class="text-body-emphasis">Art</h1>
+            <p class="lead">
+                This is a simple Bootstrap jumbotron that sits within a <code>.container</code>, recreated with built-in utility classes.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <a href=""><img src="images/101.jpg"></a>
+            <a href=""><img src="images/104.png"></a>
+            <a href=""><img src="images/107.png"></a>
+            <a href=""><img src="images/110.png"></a>
+            <a href=""><img src="images/113.png"></a>
+            <a href=""><img src="images/116.png"></a>
+            <a href=""><img src="images/119.png"></a>
+            <a href=""><img src="images/122.png"></a>
+            <a href=""><img src="images/201.png"></a>
+            <a href=""><img src="images/302.png"></a>
+            <a href=""><img src="images/305.png"></a>
+            <a href=""><img src="images/304.png"></a>
+
+        </div>
+        <div class="column">
+            <a href=""><img src="images/102.png"></a>
+            <a href=""><img src="images/105.png"></a>
+            <a href=""><img src="images/108.jpg"></a>
+            <a href=""><img src="images/111.png"></a>
+            <a href=""><img src="images/114.png"></a>
+            <a href=""><img src="images/117.png"></a>
+            <a href=""><img src="images/120.png"></a>
+            <a href=""><img src="images/123.png"></a>
+            <a href=""><img src="images/202.png"></a>
+            <a href=""><img src="images/306.png"></a>
+            <a href=""><img src="images/308.png"></a>
+
+
+        </div>
+        <div class="column">
+            <a href=""><img src="images/103.png"></a>
+            <a href=""><img src="images/106.png"></a>
+            <a href=""><img src="images/109.png"></a>
+            <a href=""><img src="images/112.png"></a>
+            <a href=""><img src="images/115.png"></a>
+            <a href=""><img src="images/118.png"></a>
+            <a href=""><img src="images/121.png"></a>
+            <a href=""><img src="images/124.png"></a>
+            <a href=""><img src="images/301.png"></a>
+            <a href=""><img src="images/307.png"></a>
+            <a href="https://javierstark.github.io/"><img src="images/401.jpg"></a>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
